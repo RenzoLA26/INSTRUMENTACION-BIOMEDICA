@@ -7,9 +7,11 @@ Cuidando a ADULTOS MAYORES de SOBREESFUERZO CARDIOVASCULAR EN rehabilitación PO
 ## Modelado 3D:
 
 
+
 ## Interfaz:
 ### Adquisición de señales fisiológicas con HealthyPi 5
 La adquisición de señales fisiológicas mediante HealthyPi 5 utilizando OpenView 2. Se visualizan las señales de ECG, onda pletismográfica (PPG), frecuencia cardíaca y la saturación de oxígeno (SpO₂).
+<img width="552" height="150" alt="WhatsApp Image 2026-07-17 at 12 48 43 PM" src="https://github.com/user-attachments/assets/a16dba20-b8a7-45e8-bfbc-4660bd92bd6b" />
 Fig. 1 
 Adquisición de señales de ECG, frecuencia cardíaca, SpO2 y onda pletismográfica
 Durante la adquisición se obtuvieron simultáneamente las siguientes variables fisiológicas: 
