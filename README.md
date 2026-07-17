@@ -58,6 +58,7 @@ Aunque, hasta la fecha, se han implementado los siguientes componentes de la apl
 - Desarrollo de la pantalla de monitoreo (MonitorScreen).
 - Implementación del ViewModel, encargado de gestionar la comunicación entre la interfaz de usuario, el servicio BLE y Firebase.
 - Desarrollo de la pantalla de escaneo BLE, destinada a la detección y conexión con el dispositivo HealthyPi 5.
+  
 Por otro lado, las funcionalidades continúan en desarrollo para completar la implementación del sistema:
 - Sistema de notificaciones automáticas
 - Nivel Alerta: envío de notificación a un familiar.
