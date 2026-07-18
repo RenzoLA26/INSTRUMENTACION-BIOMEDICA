@@ -10,14 +10,19 @@ https://cad.onshape.com/documents/6da69b8a9d5808f3a0344195/w/9f1509aac2bd9f45515
   - Se tomaron las medidas de los componnetes electrónicos para el debido modelado en 3D para que entre en forma de encaje sin tornillos.
   - Los componenetes electrónicos fueron importados y en su mayoría diseñados para el ensamblaje
   - Como futuras mejoras se cambiará los cases por uno mas ergómico.
-<img width="497" height="532" alt="WhatsApp Image 2026-07-17 at 1 09 48 PM" src="https://github.com/user-attachments/assets/62706b81-956a-4a33-8265-5695936990d8" />
+<img width="397" height="432" alt="WhatsApp Image 2026-07-17 at 1 09 48 PM" src="https://github.com/user-attachments/assets/62706b81-956a-4a33-8265-5695936990d8" />
+
 figura Ensamblaje del case del healthypi5
-<img width="497" height="532" alt="WhatsApp Image 2026-07-17 at 1 09 48 PM" src="https://github.com/user-attachments/assets/73cba1dc-0570-4854-aa69-afbb7de47a8c" />
+
+<img width="397" height="432" alt="WhatsApp Image 2026-07-17 at 1 09 48 PM" src="https://github.com/user-attachments/assets/73cba1dc-0570-4854-aa69-afbb7de47a8c" />
+
 figura Ensamblaje del case de los componentes electrónicos
 ## Interfaz:
 ### Adquisición de señales fisiológicas con HealthyPi 5
 La adquisición de señales fisiológicas mediante HealthyPi 5 utilizando OpenView 2. Se visualizan las señales de ECG, onda pletismográfica (PPG), frecuencia cardíaca y la saturación de oxígeno (SpO₂).
-<img width="552" height="150" alt="WhatsApp Image 2026-07-17 at 12 48 43 PM" src="https://github.com/user-attachments/assets/e79a5c65-4c9e-4b86-a831-9404ec56ee02" />
+
+<img width="452" height="150" alt="WhatsApp Image 2026-07-17 at 12 48 43 PM" src="https://github.com/user-attachments/assets/e79a5c65-4c9e-4b86-a831-9404ec56ee02" />
+
 Fig. n Adquisición de señales de ECG, frecuencia cardíaca, SpO2 y onda pletismográfica
 Durante la adquisición se obtuvieron simultáneamente las siguientes variables fisiológicas: 
 Variable
@@ -26,7 +31,8 @@ Frecuencia cardíaca
 98 bpm
 Saturación de oxígeno
 98 %
-<img width="550" height="267" alt="WhatsApp Image 2026-07-17 at 1 06 06 PM" src="https://github.com/user-attachments/assets/66f97a54-d06d-449a-bf7b-a5608d530811" />
+<img width="350" height="180" alt="WhatsApp Image 2026-07-17 at 1 06 06 PM" src="https://github.com/user-attachments/assets/66f97a54-d06d-449a-bf7b-a5608d530811" />
+
 Las señales fisiológicas fueron adquiridas empleando la plataforma HealthyPi 5 y visualizadas mediante el software OpenView 2.
 Las condiciones del registro fueron las siguientes:
 Posición del voluntario: sentado y en reposo.
@@ -35,6 +41,7 @@ Sensor PPG: finger clip colocado en el dedo índice.
 Duración del registro: aproximadamente 6 segundos, correspondiente a la ventana de visualización del software.
 Condición durante la adquisición: reposo, evitando movimientos voluntarios para reducir artefactos.
 <img width="297" height="282" alt="WhatsApp Image 2026-07-17 at 12 51 56 PM" src="https://github.com/user-attachments/assets/7bbda2c1-d579-4aad-a6f6-197ead1d247a" />
+
 Fig. Posición de la colocación de los electrodos en el cuerpo, conectados en derivación II
 Las señales adquiridas permiten la visualización simultánea del ECG, la onda pletismográfica y los parámetros fisiológicos derivados.
 Respecto a la calidad de las señales, se observa que:
@@ -48,9 +55,11 @@ Estado de la interfaz de usuario
 Se desarrolló una aplicación móvil utilizando Android Studio, cuya comunicación con la plataforma HealthyPi 5 se realizará mediante la tecnología Bluetooth Low Energy (BLE). Esta interfaz permitirá la visualización en tiempo real de las variables fisiológicas adquiridas por el dispositivo, así como la interacción del usuario con las diferentes funcionalidades del sistema:
 
 <img width="345" height="292" alt="WhatsApp Image 2026-07-17 at 12 56 24 PM" src="https://github.com/user-attachments/assets/f702adcb-0654-49f3-8558-8adc8175bffb" />
+
 Fig. Escaneo de HealthyPi cercanos mediante Bluetooth Low Energy (BLE) en la app
 
 <img width="337" height="490" alt="WhatsApp Image 2026-07-17 at 12 57 38 PM" src="https://github.com/user-attachments/assets/29e8481d-46cd-42c3-a536-a778bffa1331" />
+
 Fig. Interfaz principal de monitoreo 
 Las figuras mostradas muestran el estado actual de desarrollo de la aplicación móvil.
 En la primera imagen se presenta la pantalla de escaneo de dispositivos, donde la aplicación realiza la búsqueda y detección del módulo HealthyPi 5 disponible para establecer la conexión mediante BLE.
