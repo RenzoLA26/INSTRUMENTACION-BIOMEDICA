@@ -14,7 +14,7 @@ https://cad.onshape.com/documents/6da69b8a9d5808f3a0344195/w/9f1509aac2bd9f45515
 
 figura Ensamblaje del case del healthypi5
 
-<img width="397" height="432" alt="WhatsApp Image 2026-07-17 at 1 09 48 PM" src="https://github.com/user-attachments/assets/73cba1dc-0570-4854-aa69-afbb7de47a8c" />
+<img width="421" height="382" alt="WhatsApp Image 2026-07-17 at 1 10 27 PM" src="https://github.com/user-attachments/assets/2427799f-73db-49d3-9f04-901bdf9c9d75" />
 
 figura Ensamblaje del case de los componentes electrónicos
 ## Interfaz:
@@ -32,6 +32,7 @@ Frecuencia cardíaca
 98 bpm
 Saturación de oxígeno
 98 %
+
 <img width="350" height="180" alt="WhatsApp Image 2026-07-17 at 1 06 06 PM" src="https://github.com/user-attachments/assets/66f97a54-d06d-449a-bf7b-a5608d530811" />
 
 Las señales fisiológicas fueron adquiridas empleando la plataforma HealthyPi 5 y visualizadas mediante el software OpenView 2.
