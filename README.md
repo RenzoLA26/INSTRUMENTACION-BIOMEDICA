@@ -5,7 +5,7 @@ Cuidando a ADULTOS MAYORES de SOBREESFUERZO CARDIOVASCULAR EN rehabilitación PO
 
 
 ## Modelado 3D:
-
+figura
 
 ## Interfaz:
 ### Adquisición de señales fisiológicas con HealthyPi 5
