@@ -57,7 +57,9 @@ Saturación de oxígeno
 98 %
 
 <img width="350" height="180" alt="WhatsApp Image 2026-07-17 at 1 06 06 PM" src="https://github.com/user-attachments/assets/66f97a54-d06d-449a-bf7b-a5608d530811" />
+
     Fig 8. Valores de Frecuencia cardiaca y SpO2
+    
 Las señales fisiológicas fueron adquiridas empleando la plataforma HealthyPi 5 y visualizadas mediante el software OpenView 2.
 Las condiciones del registro fueron las siguientes:
 Posición del voluntario: sentado y en reposo.
@@ -65,6 +67,7 @@ Sensor ECG: electrodos conectados en derivación II.
 Sensor PPG: finger clip colocado en el dedo índice.
 Duración del registro: aproximadamente 6 segundos, correspondiente a la ventana de visualización del software.
 Condición durante la adquisición: reposo, evitando movimientos voluntarios para reducir artefactos.
+
 <img width="297" height="282" alt="WhatsApp Image 2026-07-17 at 12 51 56 PM" src="https://github.com/user-attachments/assets/7bbda2c1-d579-4aad-a6f6-197ead1d247a" />
 
      Fig 9. Posición de la colocación de los electrodos en el cuerpo, conectados en derivación II
