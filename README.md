@@ -24,6 +24,7 @@ La adquisición de señales fisiológicas mediante HealthyPi 5 utilizando OpenVi
 <img width="452" height="150" alt="WhatsApp Image 2026-07-17 at 12 48 43 PM" src="https://github.com/user-attachments/assets/e79a5c65-4c9e-4b86-a831-9404ec56ee02" />
 
 Fig. n Adquisición de señales de ECG, frecuencia cardíaca, SpO2 y onda pletismográfica
+
 Durante la adquisición se obtuvieron simultáneamente las siguientes variables fisiológicas: 
 Variable
 Valor observado
@@ -43,6 +44,7 @@ Condición durante la adquisición: reposo, evitando movimientos voluntarios par
 <img width="297" height="282" alt="WhatsApp Image 2026-07-17 at 12 51 56 PM" src="https://github.com/user-attachments/assets/7bbda2c1-d579-4aad-a6f6-197ead1d247a" />
 
 Fig. Posición de la colocación de los electrodos en el cuerpo, conectados en derivación II
+
 Las señales adquiridas permiten la visualización simultánea del ECG, la onda pletismográfica y los parámetros fisiológicos derivados.
 Respecto a la calidad de las señales, se observa que:
 La señal de ECG presenta variaciones atribuibles al ruido eléctrico y pequeños artefactos por movimiento, aunque mantiene suficiente calidad para la estimación de la frecuencia cardíaca.
@@ -61,6 +63,7 @@ Fig. Escaneo de HealthyPi cercanos mediante Bluetooth Low Energy (BLE) en la app
 <img width="337" height="490" alt="WhatsApp Image 2026-07-17 at 12 57 38 PM" src="https://github.com/user-attachments/assets/29e8481d-46cd-42c3-a536-a778bffa1331" />
 
 Fig. Interfaz principal de monitoreo 
+
 Las figuras mostradas muestran el estado actual de desarrollo de la aplicación móvil.
 En la primera imagen se presenta la pantalla de escaneo de dispositivos, donde la aplicación realiza la búsqueda y detección del módulo HealthyPi 5 disponible para establecer la conexión mediante BLE.
 En la segunda imagen se observa la interfaz principal de monitoreo del usuario. En ella se visualizan las principales variables fisiológicas adquiridas por el sistema, como la frecuencia cardíaca (FC) y la saturación de oxígeno (SpO₂), siendo esta última una medición opcional dentro del proyecto. Asimismo, la interfaz muestra el nivel de riesgo del paciente, clasificado en cuatro estados: Normal, Precaución, Alerta y Emergencia, de acuerdo con los umbrales personalizados establecidos para cada usuario. Adicionalmente, se incorpora la estimación de la actividad física mediante el Equivalente Metabólico (MET), el cual constituye uno de los parámetros empleados para evaluar el nivel de esfuerzo realizado por el paciente. La aplicación también permite seleccionar manualmente el modo de funcionamiento entre actividad común y modo ejercicio, adaptando la evaluación de los umbrales a cada contexto.
