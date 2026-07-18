@@ -14,7 +14,13 @@ Es importante destacar que la PCB no replica el front-end analógico del Healthy
 
 <img width="493" height="432" alt="Captura de pantalla 2026-07-17 193611" src="https://github.com/user-attachments/assets/7c3badd9-ab7e-4b59-b7b2-751ed4fbe187" />
 
-Figura1. Fabricación de la palca PCB JLCPCB
+           Fig 1. Fabricación de la placa PCB JLCPCB
+           
+<img width="291" height="216" alt="Captura de pantalla 2026-07-17 193916" src="https://github.com/user-attachments/assets/72be4859-7d2f-4a26-b779-66a81e5be8fc" />
+<img width="291" height="216" alt="Captura de pantalla 2026-07-17 193922" src="https://github.com/user-attachments/assets/286d0c08-c8ee-4f0b-933d-603d9e7347cf" />
+
+           Fig 2 y 3. Vista superior e inferior de la placa PCB 
+
 
 ## Modelado 3D:
 Se trabajó en onshape debido a la facildiad de sus herramientas y de colcoar tanto partes como ensamblajes dentro de una misma carpeta:
@@ -22,20 +28,25 @@ https://cad.onshape.com/documents/6da69b8a9d5808f3a0344195/w/9f1509aac2bd9f45515
   - Se tomaron las medidas de los componnetes electrónicos para el debido modelado en 3D para que entre en forma de encaje sin tornillos.
   - Los componenetes electrónicos fueron importados y en su mayoría diseñados para el ensamblaje
   - Como futuras mejoras se cambiará los cases por uno mas ergómico.
+
+<img width="632" height="302" alt="Captura de pantalla 2026-07-17 194257" src="https://github.com/user-attachments/assets/5ddac8e7-132c-4243-a283-3a99e2297d68" />
+
+      Fig 4. Vista isométrica y lateral del case de los componentes electrónicos
+
 <img width="397" height="432" alt="WhatsApp Image 2026-07-17 at 1 09 48 PM" src="https://github.com/user-attachments/assets/62706b81-956a-4a33-8265-5695936990d8" />
 
-figura Ensamblaje del case del healthypi5
+      Fig 5. Ensamblaje del case del healthypi5
 
 <img width="421" height="382" alt="WhatsApp Image 2026-07-17 at 1 10 27 PM" src="https://github.com/user-attachments/assets/2427799f-73db-49d3-9f04-901bdf9c9d75" />
 
-figura Ensamblaje del case de los componentes electrónicos
+     Fig 6. Ensamblaje del case de los componentes electrónicos
 ## Interfaz:
 ### Adquisición de señales fisiológicas con HealthyPi 5
 La adquisición de señales fisiológicas mediante HealthyPi 5 utilizando OpenView 2. Se visualizan las señales de ECG, onda pletismográfica (PPG), frecuencia cardíaca y la saturación de oxígeno (SpO₂).
 
 <img width="452" height="150" alt="WhatsApp Image 2026-07-17 at 12 48 43 PM" src="https://github.com/user-attachments/assets/e79a5c65-4c9e-4b86-a831-9404ec56ee02" />
 
-Fig. n Adquisición de señales de ECG, frecuencia cardíaca, SpO2 y onda pletismográfica
+    Fig 7. Adquisición de señales de ECG, frecuencia cardíaca, SpO2 y onda pletismográfica
 
 Durante la adquisición se obtuvieron simultáneamente las siguientes variables fisiológicas: 
 Variable
@@ -46,7 +57,7 @@ Saturación de oxígeno
 98 %
 
 <img width="350" height="180" alt="WhatsApp Image 2026-07-17 at 1 06 06 PM" src="https://github.com/user-attachments/assets/66f97a54-d06d-449a-bf7b-a5608d530811" />
-
+    Fig 8. Valores de Frecuencia cardiaca y SpO2
 Las señales fisiológicas fueron adquiridas empleando la plataforma HealthyPi 5 y visualizadas mediante el software OpenView 2.
 Las condiciones del registro fueron las siguientes:
 Posición del voluntario: sentado y en reposo.
@@ -56,7 +67,7 @@ Duración del registro: aproximadamente 6 segundos, correspondiente a la ventana
 Condición durante la adquisición: reposo, evitando movimientos voluntarios para reducir artefactos.
 <img width="297" height="282" alt="WhatsApp Image 2026-07-17 at 12 51 56 PM" src="https://github.com/user-attachments/assets/7bbda2c1-d579-4aad-a6f6-197ead1d247a" />
 
-Fig. Posición de la colocación de los electrodos en el cuerpo, conectados en derivación II
+     Fig 9. Posición de la colocación de los electrodos en el cuerpo, conectados en derivación II
 
 Las señales adquiridas permiten la visualización simultánea del ECG, la onda pletismográfica y los parámetros fisiológicos derivados.
 Respecto a la calidad de las señales, se observa que:
@@ -71,11 +82,11 @@ Se desarrolló una aplicación móvil utilizando Android Studio, cuya comunicaci
 
 <img width="345" height="292" alt="WhatsApp Image 2026-07-17 at 12 56 24 PM" src="https://github.com/user-attachments/assets/f702adcb-0654-49f3-8558-8adc8175bffb" />
 
-Fig. Escaneo de HealthyPi cercanos mediante Bluetooth Low Energy (BLE) en la app
+       Fig 10. Escaneo de HealthyPi cercanos mediante Bluetooth Low Energy (BLE) en la app
 
 <img width="337" height="490" alt="WhatsApp Image 2026-07-17 at 12 57 38 PM" src="https://github.com/user-attachments/assets/29e8481d-46cd-42c3-a536-a778bffa1331" />
 
-Fig. Interfaz principal de monitoreo 
+      Fig 11. Interfaz principal de monitoreo 
 
 Las figuras mostradas muestran el estado actual de desarrollo de la aplicación móvil.
 En la primera imagen se presenta la pantalla de escaneo de dispositivos, donde la aplicación realiza la búsqueda y detección del módulo HealthyPi 5 disponible para establecer la conexión mediante BLE.
