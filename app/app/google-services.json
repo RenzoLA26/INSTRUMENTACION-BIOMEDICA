@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "873618319124",
+    "firebase_url": "https://healthypi5-monitor-default-rtdb.firebaseio.com",
+    "project_id": "healthypi5-monitor",
+    "storage_bucket": "healthypi5-monitor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873618319124:android:6e208d4a59aacdd77a0401",
+        "android_client_info": {
+          "package_name": "com.healthypi5.monitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873618319124-4obuc5t1vdmnqta2m9dq0n1pj0n353lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAuGT0M3UhN5U7Q5e8jKMSFlHO2L9_kas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873618319124-4obuc5t1vdmnqta2m9dq0n1pj0n353lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
