@@ -2,7 +2,19 @@
 Cuidando a ADULTOS MAYORES de SOBREESFUERZO CARDIOVASCULAR EN rehabilitación POST-ANGIOPLASTÍA
 
 ## Placa PCB:
+La placa de circuito impreso desarrollada tiene como finalidad integrar todos los módulos electrónicos externos requeridos para complementar las funciones del sistema de monitoreo cardiovascular basado en HealthyPi 5.
+A diferencia del HealthyPi 5, que incorpora el acondicionamiento y adquisición de las señales biomédicas, la PCB diseñada concentra los elementos relacionados con la alimentación, almacenamiento de datos, interfaz de usuario y generación de alertas.
 
+Por esta razón, la PCB puede clasificarse como una combinación de:
+    - Placa de alimentación y distribución de energía, ya que incorpora el módulo cargador TP4056, el convertidor DC-DC XL6009 y la distribución de la         alimentación hacia todos los módulos electrónicos.
+    - Placa de expansión, debido a que integra el ESP32 Mini, el módulo MicroSD, el amplificador MAX98357A y el interruptor de selección de modo.
+    - Placa de integración física, al proporcionar los conectores necesarios para la batería, el parlante y los diferentes periféricos del sistema.
+
+Es importante destacar que la PCB no replica el front-end analógico del HealthyPi 5, respetando la arquitectura definida en las prácticas anteriores. El acondicionamiento y adquisición de las señales biomédicas continúan siendo responsabilidad del HealthyPi 5, mientras que la PCB actúa como un módulo auxiliar encargado de ampliar las capacidades del sistema mediante almacenamiento local, comunicación, control y generación de alertas. Esta estrategia reduce la complejidad del diseño, disminuye el número de componentes y favorece la confiabilidad del prototipo, además de facilitar futuras actualizaciones del sistema sin modificar la etapa de adquisición biomédica.
+
+<img width="493" height="432" alt="Captura de pantalla 2026-07-17 193611" src="https://github.com/user-attachments/assets/7c3badd9-ab7e-4b59-b7b2-751ed4fbe187" />
+
+Figura1. Fabricación de la palca PCB JLCPCB
 
 ## Modelado 3D:
 Se trabajó en onshape debido a la facildiad de sus herramientas y de colcoar tanto partes como ensamblajes dentro de una misma carpeta:
